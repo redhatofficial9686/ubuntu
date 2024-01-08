@@ -16,7 +16,7 @@ proc finish {} {
         close $nf
 	close $tf
         exec nam out.nam &
-        exec awk -f pr3.awk out.tr &
+        exec awk -f lan.awk out.tr &
         exit 0
 }
 
