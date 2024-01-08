@@ -16,7 +16,7 @@ proc finish {} {
         close $nf
 	close $tf
         exec nam out.nam &
-        exec awk -f pr2.awk out.tr &
+        exec awk -f 4nodep2p.awk out.tr &
         exit 0
 }
 
